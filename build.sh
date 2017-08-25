@@ -7,7 +7,7 @@ set -x
 
 # Setup paths to stuff we need
 
-OPENSSL_VERSION="1.0.2k"
+OPENSSL_VERSION="1.1.0f"
 
 DEVELOPER=$(xcode-select --print-path)
 
@@ -20,7 +20,7 @@ IPHONESIMULATOR_PLATFORM=$(xcrun --sdk iphonesimulator --show-sdk-platform-path)
 IPHONESIMULATOR_SDK=$(xcrun --sdk iphonesimulator --show-sdk-path)
 
 OSX_SDK_VERSION=$(xcrun --sdk macosx --show-sdk-version)
-OSX_DEPLOYMENT_VERSION="10.8"
+OSX_DEPLOYMENT_VERSION="10.13"
 OSX_PLATFORM=$(xcrun --sdk macosx --show-sdk-platform-path)
 OSX_SDK=$(xcrun --sdk macosx --show-sdk-path)
 
